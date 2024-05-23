@@ -1,0 +1,245 @@
+body {
+    font-family: 'Georgia', serif;
+    background: url('img/photo-1439792675105-701e6a4ab6f0.avif') no-repeat center center fixed; /* ruta de la imagen */
+    background-size: cover;
+    color: #0f0108;
+    margin: 0;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    color: #bb077096;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+h4 {
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0);
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+h4 {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 1em;
+    text-align: left;
+    background-color: rgba(226, 34, 130, 0.8); /* Fondo semitransparente para las tablas */
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+th {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #df306a;
+}
+
+tr:nth-child(even) {
+    background-color: rgba(142, 25, 165, 0.1);
+}
+
+tr:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 50%;
+    border: 3px solid #d62678;
+    box-shadow: 0 0 10px rgba(161, 32, 32, 0.5);
+}
+
+.activities-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+ul.activities {
+    list-style-type: disc;
+    padding-left: 20px;
+    color: #ffffff; /* Color morado para las actividades extracurriculares */
+}
+
+li {
+    margin: 5px 0;
+}
+
+.activities-container ol.activities {
+    color: #ffffff; /* Color blanco para la lista de deportes */
+}
+
+/* El @media es para que en caso de que se reduzca la pantalla del navegador, aún me sigan apareciendo los datos ordenados e igual si es visible desde algún celular se puede ver claramente */
+
+@media (max-width: 768px) {
+    table, th, td {
+        font-size: 0.9em;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    h3 {
+        font-size: 1.2em;
+    }
+
+    ul.activities {
+        padding-left: 20px; /* Ajuste de padding en dispositivos móviles */
+    }
+}
+body {
+    font-family: 'Georgia', serif;
+    background: url('img/photo-1439792675105-701e6a4ab6f0.avif') no-repeat center center fixed; /* ruta de la imagen */
+    background-size: cover;
+    color: #0f0108;
+    margin: 0;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    color: #bb077096;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+h4 {
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0);
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+h4 {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 1em;
+    text-align: left;
+    background-color: rgba(226, 34, 130, 0.8); /* Fondo semitransparente para las tablas */
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+th {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #df306a;
+}
+
+tr:nth-child(even) {
+    background-color: rgba(142, 25, 165, 0.1);
+}
+
+tr:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 50%;
+    border: 3px solid #d62678;
+    box-shadow: 0 0 10px rgba(161, 32, 32, 0.5);
+}
+
+.activities-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+ul.activities {
+    list-style-type: disc;
+    padding-left: 20px;
+    color: #ffffff; /* Color morado para las actividades extracurriculares */
+}
+
+li {
+    margin: 5px 0;
+}
+
+/* Agregar estilo para "Deportes Favoritos" */
+.activities-container ol.activities {
+    color: #ffffff; /* Color blanco para la lista de deportes */
+}
+
+/* El @media es para que en caso de que se reduzca la pantalla del navegador, aún me sigan apareciendo los datos ordenados e igual si es visible desde algún celular se puede ver claramente */
+
+@media (max-width: 768px) {
+    table, th, td {
+        font-size: 0.9em;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    h3 {
+        font-size: 1.2em;
+    }
+
+    ul.activities {
+        padding-left: 20px; /* Ajuste de padding en dispositivos móviles */
+    }
+}
